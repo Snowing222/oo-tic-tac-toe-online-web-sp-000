@@ -67,6 +67,10 @@ end
     draw?||won?
   end
 
+  def winner?
+    won?? @board[win_index_1]:nil
+  end
+
 
 
 
