@@ -52,6 +52,7 @@ class TicTacToe
       win_index_2=x[1]
       win_index_3=x[2]
       @board[win_index_1]==@board[win_index_2]&& @board[win_index_2]==@board[win_index_3]
+    end
 end
 
   def full?
@@ -63,4 +64,4 @@ end
 
 
   end
-l
+
