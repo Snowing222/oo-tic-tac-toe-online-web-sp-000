@@ -68,7 +68,7 @@ end
   end
 
   def winner
-    won?? @board[win_index_1]:nil
+    won?? won?[0]:nil
   end
 
 
