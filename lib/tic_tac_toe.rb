@@ -78,6 +78,7 @@ end
     end
 
     winner? puts "Congratulations #{winner}" : puts "Cat's Game!"
+  end
 
 
 
