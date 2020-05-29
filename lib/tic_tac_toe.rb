@@ -56,10 +56,10 @@ class TicTacToe
     @board.all? {|x| x!=" "}
   end
 
-  
-        
-        
-      
+
+
+
+
   end
 
 
