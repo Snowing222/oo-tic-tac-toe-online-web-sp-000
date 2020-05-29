@@ -72,7 +72,7 @@ end
 
   end
 
-  def player
+  def play
   end
 
 
