@@ -59,6 +59,14 @@ end
     @board.all? {|x| x!=" "}
   end
 
+  def draw?
+    full?&&!won?
+  end
+
+  def over?
+    draw?||won?
+  end
+
 
 
 
