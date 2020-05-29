@@ -72,6 +72,9 @@ end
 
   end
 
+  def player
+  end
+
 
 
 
