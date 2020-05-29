@@ -73,6 +73,14 @@ end
   end
 
   def play
+    while !over?
+      turn
+    end
+
+    winner? puts "Congratulations #{winner}" : puts "Cat's Game!"
+    
+      
+    
   end
 
 
