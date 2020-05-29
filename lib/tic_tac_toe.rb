@@ -51,7 +51,7 @@ class TicTacToe
       win_index_1=x[0]
       win_index_2=x[1]
       win_index_3=x[2]
-      @board[win_index_1]==@board[win_index_2]&& @board[win_index_2]==@board[win_index_3]
+      @board[win_index_1]==@board[win_index_2]&& @board[win_index_2]==@board[win_index_3]&&@board[win_index_1]!=" "
     end
 end
 
